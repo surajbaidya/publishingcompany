@@ -1,0 +1,26 @@
+.book-publishing-company {
+  color: $color__orange_a;
+}
+
+.header__menue {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  color: $color__black_a;
+  margin-right: 55px;
+  display: inline-block;
+  vertical-align: sub;
+  &::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: $color__blue_a;
+    transition: width 0.3s;
+    margin-top: 10px;
+  }
+  &:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+}

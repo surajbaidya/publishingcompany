@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.active {
+  color: $color__blue_a;
+}
