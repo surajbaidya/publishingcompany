@@ -1,0 +1,18 @@
+.section__authors {
+  .author__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+    align-items: center;
+  }
+  .author__content-left {
+    img {
+      width: 100%;
+    }
+  }
+  .author__content-right {
+    .author__paragraph-a {
+      margin: 14px 0;
+    }
+  }
+}
