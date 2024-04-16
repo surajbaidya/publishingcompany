@@ -14,7 +14,11 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-
+ul {
+  list-style-type: none;
+}
 .active {
   color: $color__blue_a;
 }
+$header__bottom-width: 100%; // Define header bottom width
+$header__bottom-shadow: 0 1px 4px rgb(146 161 176 / 15%);

@@ -29,8 +29,16 @@
             </div>
         </div>
         <div class="wrapper">
-            <div class="header__bottom">
-                <ul>
+            <div class="nav header__bottom">
+                <div class="hamburger-container hamburger-nested">
+                    <ul class="hamburger">
+                        <li class="ham_a"></li>
+                        <li class="ham_b"></li>
+                        <li class="ham_c"></li>
+                    </ul>
+                    <span>menu</span>
+                </div>
+                <ul id="menu">
                     <li><a href="#" class="active lora_b header__menue">home</a></li>
                     <li><a href="#" class="lora_b header__menue">about</a></li>
                     <li><a href="#" class="lora_b header__menue">coming soon</a></li>
@@ -43,6 +51,8 @@
             </div>
         </div>
     </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./dist/js/hamburger.js"></script>
     <script src="./dist/js/main.js"></script>
     
 </body>

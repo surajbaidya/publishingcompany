@@ -121,17 +121,98 @@
   }
   .header__bottom {
     text-align: center;
-    margin: 25px 0;
-    ul {
-      list-style-type: none;
-      li {
-        display: inline-block;
-        &:last-child a {
-          margin-right: 0;
+    padding: 25px 0;
+    @media (max-width: 1199px) {
+      width: 100%;
+      background-color: $color__black_a;
+      padding: 10px 0px;
+      text-align: left;
+    }
+    &.nav {
+      .hamburger-container {
+        display: none;
+        width: 38px;
+        margin: 10px 20px;
+        height: 20px;
+        cursor: pointer;
+        ul.hamburger {
+          display: none;
+          @media (max-width: 1199px) {
+            display: block;
+          }
+
+          li {
+            &.ham_b {
+              margin: 5px 0;
+            }
+            @media (max-width: 1199px) {
+              height: 2px;
+              width: 30px;
+              background-color: $color__white_a;
+              opacity: 0.6;
+              &:nth-child(1) {
+                top: 0;
+              }
+              &:nth-child(2) {
+                top: 5px;
+              }
+              &:nth-child(3) {
+                top: 10px;
+              }
+            }
+          }
         }
+        @media (max-width: 1199px) {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+        span {
+          display: none;
+          @media (max-width: 1199px) {
+            color: $color__white_a;
+            opacity: 0.6;
+            text-transform: uppercase;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 16px;
+            display: block;
+          }
+        }
+      }
+
+      ul#menu {
+        @media (max-width: 1199px) {
+          display: none;
+          display: block;
+        }
+
+        li {
+          display: inline-block;
+          margin-right: -5px;
+          @media (max-width: 1199px) {
+            display: block;
+          }
+        }
+
         a {
+          @media (max-width: 1199px) {
+            text-decoration: none;
+            background-color: $color__black_a;
+            color: $color__white_a;
+            font-size: 14px;
+            padding: 1.5em 1.6em;
+            transition: background 0.2s;
+            font-family: "Lora", serif;
+            font-size: 13px;
+            font-weight: 600;
+          }
+
           &:hover {
-            color: $color__blue_a;
+            @media (max-width: 1199px) {
+              background-color: darken($color__blue_a, 10%);
+            }
           }
         }
       }
