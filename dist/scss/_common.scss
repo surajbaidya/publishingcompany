@@ -24,3 +24,60 @@
     transition: width 0.3s;
   }
 }
+
+.button__main {
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: capitalize;
+  padding: 20px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.button__left {
+  background-color: $color__blue_a;
+  color: $color__white_a;
+  margin-right: 5px;
+}
+.button__right {
+  background-color: $color__white_a;
+  color: $color__black_a;
+}
+
+.icon__title {
+  font-size: 24px;
+  font-family: "Lora", serif;
+  font-weight: 500;
+  color: $color__black_a;
+  margin: 20px 0;
+}
+
+.icon__paragraph {
+  font-size: 17px;
+  line-height: 1.8;
+  color: $color__grey_b;
+  text-align: center;
+}
+
+#shiva {
+  width: 100%;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin: 5px;
+}
+.count {
+  font-weight: 400;
+  font-size: 50px;
+  color: #000000;
+  display: block;
+  font-family: "Lora", serif;
+  margin-bottom: 20px;
+}
+
+.counter__text {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: $color__grey_b;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
