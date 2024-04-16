@@ -1,0 +1,10 @@
+.section__counter {
+  background-color: $color__grey_d;
+  padding: 30px;
+  .counter__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+}
