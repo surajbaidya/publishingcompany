@@ -10,10 +10,7 @@ body {
     font-style: normal;
   }
 }
-.wrapper {
-  width: 1200px;
-  margin: 0 auto;
-}
+
 ul {
   list-style-type: none;
 }
@@ -22,3 +19,34 @@ ul {
 }
 $header__bottom-width: 100%; // Define header bottom width
 $header__bottom-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (min-width: 576px) {
+  .wrapper {
+    max-width: 600px; /* Example width for small devices */
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 991px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 1199px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1200px;
+  }
+}
