@@ -764,3 +764,20 @@ ul {
   display: flex;
   gap: 10px;
 }
+
+.section__blog .blog__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.section__blog .blog__box-a {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.section__blog .blog__box-b {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.section__blog .blog__box-b {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}

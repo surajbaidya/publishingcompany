@@ -1,0 +1,19 @@
+.section__blog {
+  .blog__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blog__box-a {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .blog__box-b {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .blog__box-b {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+}
