@@ -32,6 +32,10 @@
   padding: 20px;
   border-radius: 3px;
   display: inline-block;
+  @media (max-width: 476px) {
+    width: 44%;
+    font-size: 14px;
+  }
 }
 .button__left {
   background-color: $color__blue_a;
@@ -41,6 +45,9 @@
 .button__right {
   background-color: $color__white_a;
   color: $color__black_a;
+  @media (max-width: 476px) {
+    margin-top: 15px;
+  }
 }
 
 .icon__title {
@@ -49,6 +56,9 @@
   font-weight: 500;
   color: $color__black_a;
   margin: 20px 0;
+  @media (max-width: 1199px) {
+    font-size: 22px;
+  }
 }
 
 .icon__paragraph {
@@ -56,6 +66,9 @@
   line-height: 1.8;
   color: $color__grey_b;
   text-align: center;
+  @media (max-width: 1199) {
+    font-size: 16px;
+  }
 }
 
 #shiva {
@@ -96,11 +109,14 @@
   font-family: "Lora", serif;
   margin: 17px 0;
   text-transform: capitalize;
+  @media (max-width: 991px) {
+    font-size: 35px;
+  }
 }
 .author__paragraph {
   color: $color__grey_b;
   line-height: 32px;
-  font-size: 17px;
+  font-size: 15px;
 }
 .common__button {
   font-size: 15px;
@@ -180,6 +196,9 @@
   line-height: 34px;
   display: inline-block;
   margin: 20px 0;
+  @media (max-width: 1471px) {
+    font-size: 18px;
+  }
 }
 .news__paragraph {
   font-size: 17px;
@@ -187,6 +206,9 @@
   font-family: "Lora", serif;
   color: $color__grey_b;
   text-transform: capitalize;
+  @media (max-width: 1471px) {
+    font-size: 16px;
+  }
 }
 
 .news__image {
@@ -195,6 +217,9 @@
 .news__item-right {
   background-color: $color__grey_d;
   padding: 34px 25px;
+  @media (max-width: 1471px) {
+    padding: 12px 10px;
+  }
 }
 .essay__number {
   color: rgba(0, 0, 0, 0.4) !important;
@@ -237,4 +262,104 @@
 }
 .icon__weight {
   font-weight: 300 !important;
+}
+.day__content {
+  font-weight: 700;
+  color: #95adbe;
+  font-size: 30px;
+  font-family: "Lora", serif;
+}
+.month__content {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+.year__content {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+}
+.friends__content {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Lora", serif;
+  text-decoration: none;
+  color: $color__black_a;
+  margin: 20px 0;
+}
+.friends__paragraph {
+  font-family: "Roboto", Arial, sans-serif;
+  background: #fff;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: $color__grey_b;
+  margin: 0 30px;
+}
+.blog__number-content {
+  margin-top: -58px;
+  height: 100px;
+  width: 100px;
+  background-color: $color__grey_d;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.common__box-number {
+  &:hover {
+    background-color: $color__blue_a;
+    h4 {
+      color: $color__white_a;
+    }
+  }
+}
+
+.image__content {
+  img {
+    height: 82px;
+    width: 82px;
+    border-radius: 50px;
+  }
+}
+
+#testimonial__main {
+  height: 250px;
+  width: 100%;
+}
+.slider__wrap {
+  display: flex;
+}
+.slider__text {
+  color: $color__grey_b;
+  line-height: 34px;
+  margin-bottom: 23px;
+  font-size: 17px;
+}
+.person__content {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.marketing {
+  font-size: 16px;
+  color: $color__grey_a;
+}
+.person__slider-c {
+  text-transform: capitalize;
+}
+.testimonial__a {
+  color: $color__white_a;
+}
+.common__quote {
+  background-color: $color__blue_a;
+  padding: 10px;
+  border-radius: 50px;
+  color: $color__white_a;
+  position: absolute;
+  top: -15px;
+  left: 18px;
 }

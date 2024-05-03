@@ -1,5 +1,13 @@
 .section__header {
   padding-top: 50px;
+  .wrapper {
+    @media (max-width: 1199px) {
+      padding: 0;
+    }
+    @media (max-width: 767px) {
+      padding: 0;
+    }
+  }
   .header__top {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
