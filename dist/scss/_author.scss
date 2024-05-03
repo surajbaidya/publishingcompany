@@ -2,8 +2,11 @@
   .author__content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 45px;
+    gap: 22px;
     align-items: center;
+    @media (max-width: 991px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
   .author__content-left {
     img {

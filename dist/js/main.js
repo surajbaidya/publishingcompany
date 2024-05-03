@@ -10,14 +10,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-
-/* hover js */
-/* document.querySelectorAll(".news__book").forEach((item) => {
-  item.addEventListener("mouseenter", () => {
-    item.querySelector(".news__release").style.display = "block";
-  });
-
-  item.addEventListener("mouseleave", () => {
-    item.querySelector(".news__release").style.display = "none";
-  });
-}); */

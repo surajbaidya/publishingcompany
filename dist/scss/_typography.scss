@@ -27,26 +27,28 @@ $header__bottom-shadow: 0 1px 4px rgb(146 161 176 / 15%);
 }
 @media (min-width: 576px) {
   .wrapper {
-    max-width: 600px; /* Example width for small devices */
+    max-width: 760px; /* Example width for small devices */
+    padding: 0 10px;
   }
 }
 
 @media (min-width: 768px) {
   .wrapper {
     max-width: 991px;
-    padding: 0;
+    padding: 0 10px;
   }
 }
 
 @media (min-width: 992px) {
   .wrapper {
     max-width: 1199px;
-    padding: 0;
+    padding: 0 10px;
   }
 }
 
 @media (min-width: 1200px) {
   .wrapper {
     max-width: 1200px;
+    padding: 0 10px;
   }
 }
